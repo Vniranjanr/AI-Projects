@@ -39,7 +39,7 @@ This project demonstrates how to:
 
 ---
 
-### 💰 Cost Estimation (Reference: GPT-3.5 input: $0.001 per 1K tokens)  
+### 💰 Cost Estimation (Reference: For running 1 Million websites at $0.001 per 1K tokens(GPT-3.5's cost)  
 
 | Model | Tokens | Cost |
 |-------|--------|------|
