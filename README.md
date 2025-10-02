@@ -30,6 +30,19 @@ This project demonstrates how to:
 
 ---
 
+---
+
+## 🛠️ Tech Stack  
+
+- **Languages & Tools**: Python, Requests, BeautifulSoup, Transformers (Hugging Face), Tiktoken  
+- **Models Used**:  
+  - Microsoft **Phi-3 Mini Instruct**  
+  - Hugging Face **BERT (bert-base-uncased)**  
+  - OpenAI **GPT-3.5/4** Tokenizer (`tiktoken`)  
+- **Concepts Applied**: Web scraping, Preprocessing, Tokenization, Cost Estimation, Large Language Models (LLMs), Natural Language Processing (NLP)  
+
+---
+
 ## ⚡ Workflow  
 
 ```mermaid
