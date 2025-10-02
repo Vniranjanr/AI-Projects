@@ -35,9 +35,9 @@ This project demonstrates how to:
 ## 🛠️ Sample Output  
 
 🔹 Token Counts
-Microsoft (Phi-3): 5193 tokens
-Hugging Face (BERT): 4742 tokens
-OpenAI (GPT-3.5): 4539 tokens
+  - Microsoft (Phi-3): 5193 tokens
+  - Hugging Face (BERT): 4742 tokens
+  - OpenAI (GPT-3.5): 4539 tokens
 
 🔹 Cost Estimation (Reference: GPT-3.5 input: $0.001 per 1K tokens)
 Microsoft PHI: $5193.0000
