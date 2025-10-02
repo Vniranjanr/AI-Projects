@@ -52,8 +52,5 @@ This project demonstrates how to:
 ## ⚡ Workflow  
 
 ```mermaid
-graph TD
-A[🌍 Fetch Website HTML] --> B[🧹 Clean & Preprocess Text]
-B --> C[🔡 Tokenize with 3 Models]
-C --> D[📊 Token Count Comparison]
-D --> E[💰 Cost Estimation per 1K tokens]
+graph LR
+A[🌍 Fetch Web Data] --> B[🧹 Clean Text] --> C[🔡 Tokenize (Phi-3 / BERT / GPT-3.5)] --> D[📊 Compare Token Counts] --> E[💰 Estimate Costs]
