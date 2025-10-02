@@ -41,7 +41,8 @@ D --> E[💰 Cost Estimation per 1K tokens]
 
 ---
 
-## 📈 Sample Output
+## 🛠️ Sample Output
+
 🔹 Token Counts
 Microsoft (Phi-3): 5193 tokens
 Hugging Face (BERT): 4742 tokens
