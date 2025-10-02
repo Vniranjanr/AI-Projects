@@ -40,9 +40,9 @@ This project demonstrates how to:
   - OpenAI (GPT-3.5): 4539 tokens
 
 🔹 Cost Estimation (Reference: GPT-3.5 input: $0.001 per 1K tokens)
-Microsoft PHI: $5193.0000
-Hugging Face BERT: $4742.0000
-OpenAI TIKTOKEN: $4539.0000
+  - Microsoft PHI: $5193.0000
+  - Hugging Face BERT: $4742.0000
+  - OpenAI TIKTOKEN: $4539.0000
 
 ---
 
