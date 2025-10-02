@@ -53,4 +53,5 @@ This project demonstrates how to:
 
 ```mermaid
 graph LR
-A[🌍 Fetch Web Data] --> B[🧹 Clean Text] --> C[🔡 Tokenize (Phi-3 / BERT / GPT-3.5)] --> D[📊 Compare Token Counts] --> E[💰 Estimate Costs]
+A[🌍 Fetch Web Data] --> B[🧹 Clean Text] --> C[🔡 Tokenize with Models] --> D[📊 Compare Token Counts] --> E[💰 Estimate Costs]
+
