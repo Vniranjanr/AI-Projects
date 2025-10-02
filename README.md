@@ -32,14 +32,14 @@ This project demonstrates how to:
 
 ## 📈 Token Counts & Cost Estimation  
 
-### 🔹 Token Counts
+### 🔹 Token Counts for sample website: https://clay.global/blog/web-design-guide/long-scrolling-websites
 - Microsoft (Phi-3): **5193 tokens**  
 - Hugging Face (BERT): **4742 tokens**  
 - OpenAI (GPT-3.5): **4539 tokens**  
 
 ---
 
-### 💰 Cost Estimation (Reference: For running 1 Million websites at $0.001 per 1K tokens(GPT-3.5's cost)  
+### 💰 Cost Estimation (Reference: For running 1 Million such websites at $0.001 per 1K tokens(GPT-3.5's cost)  
 
 | Model | Tokens | Cost |
 |-------|--------|------|
