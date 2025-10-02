@@ -43,9 +43,9 @@ This project demonstrates how to:
 
 | Model | Tokens | Cost |
 |-------|--------|------|
-| Microsoft **Phi-3** | 5193 | ![High Cost](https://img.shields.io/badge/$5193-🔥_Highest_Red-red?style=for-the-badge) |
-| Hugging Face **BERT** | 4742 | ![Medium Cost](https://img.shields.io/badge/$4742-⚡_Medium_Blue-blue?style=for-the-badge) |
-| OpenAI **GPT-3.5** | 4539 | ![Low Cost](https://img.shields.io/badge/$4539-✅_Lowest_Green-green?style=for-the-badge) |
+| Microsoft **Phi-3** | 5193 | ![High Cost](https://img.shields.io/badge/$5193-🔥-red?style=for-the-badge) |
+| Hugging Face **BERT** | 4742 | ![Medium Cost](https://img.shields.io/badge/$4742-⚡-blue?style=for-the-badge) |
+| OpenAI **GPT-3.5** | 4539 | ![Low Cost](https://img.shields.io/badge/$4539-✅-green?style=for-the-badge) |
 
 ---
 
