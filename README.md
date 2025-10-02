@@ -51,5 +51,6 @@ This project demonstrates how to:
 
 ## ⚡ Workflow  
 
-![Workflow Diagram](workflow.png)
+🌍 Fetch Web Data → 🧹 Clean Text → 🔡 Tokenize with Models → 📊 Compare Token Counts → 💰 Estimate Costs
+
 
