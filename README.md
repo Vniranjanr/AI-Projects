@@ -38,18 +38,3 @@ A[🌍 Fetch Website HTML] --> B[🧹 Clean & Preprocess Text]
 B --> C[🔡 Tokenize with 3 Models]
 C --> D[📊 Token Count Comparison]
 D --> E[💰 Cost Estimation per 1K tokens]
-
----
-
-## 🛠️ Sample Output
-
-🔹 Token Counts
-Microsoft (Phi-3): 5193 tokens
-Hugging Face (BERT): 4742 tokens
-OpenAI (GPT-3.5): 4539 tokens
-
-🔹 Cost Estimation (Reference: GPT-3.5 input: $0.001 per 1K tokens)
-Microsoft PHI: $5193.0000
-Hugging Face BERT: $4742.0000
-OpenAI TIKTOKEN: $4539.0000
-
