@@ -30,19 +30,22 @@ This project demonstrates how to:
 
 ---
 
+## 📈 Token Counts & Cost Estimation  
+
+### 🔹 Token Counts
+- Microsoft (Phi-3): **5193 tokens**  
+- Hugging Face (BERT): **4742 tokens**  
+- OpenAI (GPT-3.5): **4539 tokens**  
+
 ---
 
-## 🛠️ Sample Output  
+### 💰 Cost Estimation (Reference: GPT-3.5 input: $0.001 per 1K tokens)  
 
-🔹 Token Counts
-  - Microsoft (Phi-3): 5193 tokens
-  - Hugging Face (BERT): 4742 tokens
-  - OpenAI (GPT-3.5): 4539 tokens
-
-🔹 Cost Estimation (Reference: GPT-3.5 input: $0.001 per 1K tokens)
-  - Microsoft PHI: $5193.0000
-  - Hugging Face BERT: $4742.0000
-  - OpenAI TIKTOKEN: $4539.0000
+| Model | Tokens | Cost |
+|-------|--------|------|
+| Microsoft **Phi-3** | 5193 | ![High Cost](https://img.shields.io/badge/$5193-🔥_Highest_Red-red?style=for-the-badge) |
+| Hugging Face **BERT** | 4742 | ![Medium Cost](https://img.shields.io/badge/$4742-⚡_Medium_Blue-blue?style=for-the-badge) |
+| OpenAI **GPT-3.5** | 4539 | ![Low Cost](https://img.shields.io/badge/$4539-✅_Lowest_Green-green?style=for-the-badge) |
 
 ---
 
