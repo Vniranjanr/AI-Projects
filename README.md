@@ -51,7 +51,5 @@ This project demonstrates how to:
 
 ## ⚡ Workflow  
 
-```mermaid
-graph LR
-A[🌍 Fetch Web Data] --> B[🧹 Clean Text] --> C[🔡 Tokenize with Models] --> D[📊 Compare Token Counts] --> E[💰 Estimate Costs]
+![Workflow Diagram](workflow.png)
 
