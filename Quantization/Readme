@@ -2,11 +2,11 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.5.1-red.svg)
-![Transformers](https://img.shields.io/badge/🤗_Transformers-4.48.3-yellow.svg)
-![CUDA](https://img.shields.io/badge/CUDA-12.4-green.svg)
-![License](https://img.shields.io/badge/License-MIT-purple.svg)
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.5.1-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-4.48.3-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![CUDA](https://img.shields.io/badge/CUDA-12.4-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-9b59b6?style=for-the-badge)
 
 **Comprehensive analysis of 4-bit quantization techniques for optimizing LLM inference and deployment**
 
