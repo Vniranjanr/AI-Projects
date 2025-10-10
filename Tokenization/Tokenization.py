@@ -26,7 +26,7 @@ text = fetch_website_text(url)
 # --------------------------
 
 # Hugging Face tokenizer
-hf_tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased", use_fast=True)
+hf_tokenizer = AutoTokenizer.from_pretrained("LLAMA")
 
 
 # OpenAI tokenizer (GPT-3.5/4)
