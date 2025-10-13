@@ -45,11 +45,12 @@ It evaluates **Microsoft Phi-3**, **Google Gemma**, and **Qwen 2.5** models usin
 
 ## 📊 Output Preview  
 
+
 | Model | Quantized PPL | Unquantized PPL | Quantized Memory (MB) | Unquantized Memory (MB) |
 |--------|----------------|----------------|------------------------|--------------------------|
-| Phi-3-mini-4k-instruct | ![Q](https://img.shields.io/badge/10.44-%234CAF50?style=for-the-badge&labelColor=2E7D32&color=4CAF50) | ![U](https://img.shields.io/badge/10.25-%23A5D6A7?style=for-the-badge&labelColor=81C784&color=A5D6A7) | ![QM](https://img.shields.io/badge/2206.30_MB-%23FF8C42?style=for-the-badge&labelColor=F57C00&color=FF8C42) | ![UM](https://img.shields.io/badge/7642.20_MB-%23FFE0B2?style=for-the-badge&labelColor=FFB74D&color=FFE0B2) |
-| gemma-2-2b-it | ![Q](https://img.shields.io/badge/16.39-%234CAF50?style=for-the-badge&labelColor=2E7D32&color=4CAF50) | ![U](https://img.shields.io/badge/15.21-%23A5D6A7?style=for-the-badge&labelColor=81C784&color=A5D6A7) | ![QM](https://img.shields.io/badge/2192.30_MB-%23FF8C42?style=for-the-badge&labelColor=F57C00&color=FF8C42) | ![UM](https://img.shields.io/badge/5228.70_MB-%23FFE0B2?style=for-the-badge&labelColor=FFB74D&color=FFE0B2) |
-| Qwen2.5-3B-Instruct | ![Q](https://img.shields.io/badge/16.28-%234CAF50?style=for-the-badge&labelColor=2E7D32&color=4CAF50) | ![U](https://img.shields.io/badge/15.39-%23A5D6A7?style=for-the-badge&labelColor=81C784&color=A5D6A7) | ![QM](https://img.shields.io/badge/2010.10_MB-%23FF8C42?style=for-the-badge&labelColor=F57C00&color=FF8C42) | ![UM](https://img.shields.io/badge/6171.90_MB-%23FFE0B2?style=for-the-badge&labelColor=FFB74D&color=FFE0B2) |
+| Phi-3-mini-4k-instruct | **10.44** | **10.25** | **2.2 GB**&nbsp;&nbsp; ⬇️**71% smaller** | **7.6 GB** |
+| gemma-2-2b-it | **16.39** | **15.21** | **2.1 GB** &nbsp;&nbsp; ⬇️ **58% smaller** | **5.2 GB** |
+| Qwen2.5-3B-Instruct | **16.28** | **15.39** | **2.0 GB** &nbsp;&nbsp; ⬇️ **67% smaller** | **6. GB** |
 
 ---
 
