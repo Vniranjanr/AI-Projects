@@ -1,11 +1,10 @@
-
 # 🧠 LLM Quantization Performance Benchmark  
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)
-![BitsAndBytes](https://img.shields.io/badge/BitsAndBytes-4bit_Quantization-green.svg)
-![CUDA](https://img.shields.io/badge/Accelerated_with-CUDA_12.4-orange.svg)
-![Category](https://img.shields.io/badge/Domain-AI%20%7C%20LLM%20Optimization-red.svg)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)  
+![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)  
+![BitsAndBytes](https://img.shields.io/badge/BitsAndBytes-4bit_Quantization-green.svg)  
+![CUDA](https://img.shields.io/badge/Accelerated_with-CUDA_12.4-orange.svg)  
+![Category](https://img.shields.io/badge/Domain-AI_|_LLM_Optimization-red.svg)  
 
 ---
 
