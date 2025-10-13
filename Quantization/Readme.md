@@ -48,9 +48,9 @@ It evaluates **Microsoft Phi-3**, **Google Gemma**, and **Qwen 2.5** models usin
 
 | Model | Quantized PPL | Unquantized PPL | Quantized Memory (MB) | Unquantized Memory (MB) |
 |--------|----------------|----------------|------------------------|--------------------------|
-| Phi-3-mini-4k-instruct | **10.44** | **10.25** | **2.2 GB**&nbsp;&nbsp; ⬇️**71% smaller** | **7.6 GB** |
-| gemma-2-2b-it | **16.39** | **15.21** | **2.1 GB** &nbsp;&nbsp; ⬇️ **58% smaller** | **5.2 GB** |
-| Qwen2.5-3B-Instruct | **16.28** | **15.39** | **2.0 GB** &nbsp;&nbsp; ⬇️ **67% smaller** | **6.1 GB** |
+| Phi-3-mini-4k-instruct | **10.44** | **10.25** | **2.2 GB** &nbsp;&nbsp; ⬇️**71% smaller** | **7.6 GB** |
+| gemma-2-2b-it | **16.39** | **15.21** | **2.1 GB** &nbsp;&nbsp; ⬇️**58% smaller** | **5.2 GB** |
+| Qwen2.5-3B-Instruct | **16.28** | **15.39** | **2.0 GB** &nbsp;&nbsp; ⬇️**67% smaller** | **6.1 GB** |
 
 ---
 
