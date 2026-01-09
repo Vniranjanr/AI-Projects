@@ -1,33 +1,27 @@
 # 🤖 SQL Server Agentic AI
 
-> An intelligent agentic system that autonomously interacts with SQL Server databases using natural language, powered by Claude AI and LangGraph.
+> An intelligent agentic system that autonomously interacts with SQL Server databases using natural language, powered by OpenAI and Langchain.
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![LangChain](https://img.shields.io/badge/LangChain-Latest-green.svg)](https://www.langchain.com/)
-[![Claude AI](https://img.shields.io/badge/Claude-Sonnet%204-purple.svg)](https://www.anthropic.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![LangChain](https://img.shields.io/badge/LangChain-1.2-green.svg)](https://www.langchain.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-gpt_4o-purple.svg)](https://www.anthropic.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Latest-yellow.svg)](LICENSE)
 
 ## 📋 Overview
 
-This project demonstrates an advanced **agentic AI architecture** that enables natural language database interactions. Built with LangGraph and Claude AI, the system autonomously generates SQL queries, executes them against SQL Server databases, and provides intelligent responses to complex data questions.
+This project demonstrates an advanced **agentic AI architecture** that enables natural language database interactions. Built with Langchain and Claude AI, the system autonomously generates SQL queries, executes them against SQL Server databases, and provides intelligent responses to complex data questions.
 
 ### Key Highlights
 
 - **🎯 Autonomous Decision-Making**: Agent intelligently decides when to query the database vs. provide direct answers
 - **🔄 Self-Correcting**: Automatically handles errors and refines queries for accurate results
 - **💬 Natural Language Interface**: Ask questions in plain English, get precise data insights
-- **🏗️ Production-Ready Architecture**: Built with LangGraph for robust, stateful workflow management
+- **🏗️ Production-Ready Architecture**: Built with Langchain for robust, stateful workflow management
 - **🔐 Secure**: Implements best practices for database access and API key management
 
 ## 🏗️ Architecture
 
-```
-User Query → Claude AI Agent → SQL Query Generation → SQL Server Execution → Result Processing → Natural Language Response
-                    ↓
-            [LangGraph State Management]
-                    ↓
-            [Error Handling & Retry Logic]
-```
+🌍 User asks question in Natural Language → 🧹 Clean Text → 🔡 Tokenize with Models → 📊 Compare Token Counts → 💰 Estimate Costs
 
 The system uses a sophisticated agent loop that:
 1. Analyzes user questions and database schema
@@ -46,7 +40,7 @@ The system uses a sophisticated agent loop that:
 - **Result Synthesis**: Converts raw data into meaningful insights
 
 ### Technical Features
-- Stateful workflow management with LangGraph
+- Stateful workflow management with Langchain
 - Integration with Anthropic's Claude Sonnet 4
 - SQL Server connectivity via pyodbc
 - Environment-based configuration
@@ -113,7 +107,7 @@ This agentic system excels at:
 | Technology | Purpose |
 |------------|---------|
 | **Python** | Core programming language |
-| **LangChain/LangGraph** | Agent orchestration and workflow management |
+| **LangChain/Langchain** | Agent orchestration and workflow management |
 | **Claude AI (Anthropic)** | Natural language understanding and SQL generation |
 | **pyodbc** | SQL Server database connectivity |
 | **dotenv** | Environment configuration management |
@@ -123,7 +117,7 @@ This agentic system excels at:
 ```
 SQLServer_AgenticAI/
 ├── main.py                 # Main application entry point
-├── agent.py               # LangGraph agent implementation
+├── agent.py               # Langchain agent implementation
 ├── database.py            # SQL Server connection and utilities
 ├── prompts.py             # System prompts and templates
 ├── requirements.txt       # Python dependencies
@@ -134,7 +128,7 @@ SQLServer_AgenticAI/
 ## 🎯 Key Skills Demonstrated
 
 - **AI/ML Engineering**: Implementing production-grade agentic AI systems
-- **LangChain/LangGraph**: Building stateful, multi-step AI workflows
+- **LangChain/Langchain**: Building stateful, multi-step AI workflows
 - **Database Engineering**: SQL Server integration and query optimization
 - **Python Development**: Clean, maintainable code with best practices
 - **System Design**: Architecting autonomous, error-resilient systems
@@ -184,7 +178,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-- Built with [LangChain](https://www.langchain.com/) and [LangGraph](https://langchain-ai.github.io/langgraph/)
+- Built with [LangChain](https://www.langchain.com/) and [Langchain](https://langchain-ai.github.io/Langchain/)
 - Powered by [Anthropic's Claude AI](https://www.anthropic.com/)
 - Inspired by the growing field of agentic AI systems
 
