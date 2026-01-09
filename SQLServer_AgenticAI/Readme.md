@@ -21,7 +21,7 @@ This project demonstrates an advanced **agentic AI architecture** that enables n
 
 ## 🏗️ Architecture
 
-[![Workflow Diagram](images/workflow.png)](images/workflow.png)
+![Workflow Diagram](AI-Projects/images/workflow.png)
 
 The system uses a sophisticated agent loop that:
 1. Analyzes user questions and database schema
