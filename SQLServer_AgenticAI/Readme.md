@@ -17,18 +17,11 @@ This project demonstrates an advanced **agentic AI architecture** that enables n
 - **🔄 Self-Correcting**: Automatically handles errors and refines queries for accurate results
 - **💬 Natural Language Interface**: Ask questions in plain English, get precise data insights
 - **🏗️ Production-Ready Architecture**: Built with Langchain for robust, stateful workflow management
-- **🔐 Secure**: Implements best practices for database access and API key management
+- **🔐 Secure**: Implements text() function from SQLAlchemy to protect againt SQL Injection or Accidental Data Corruption from LLM
 
 ## 🏗️ Architecture
 
 ![Workflow](../images/workflow.png)
-
-The system uses a sophisticated agent loop that:
-1. Analyzes user questions and database schema
-2. Generates optimized SQL queries
-3. Executes queries safely with error handling
-4. Processes results and formats human-readable responses
-5. Iterates until query goals are achieved
 
 ## 🛠️ Technical Stack
 
@@ -103,6 +96,8 @@ stremlit run main.py
 # "What's the average salary by department?"
 # "Show me the top 5 highest-paid employees"
 ```
+## 📝 Example Interaction
+![Output](../images/Output.png)
 
 ## 📊 Use Cases
 
@@ -114,37 +109,10 @@ This agentic system excels at:
 - **Data Exploration**: "What tables contain customer information?"
 - **Troubleshooting**: "Find all orders with missing shipment dates"
 
-
-## 📁 Project Structure
-
-```
-SQLServer_AgenticAI/
-├── main.py                 # Main application entry point
-├── agent.py               # Langchain agent implementation
-├── database.py            # SQL Server connection and utilities
-├── prompts.py             # System prompts and templates
-├── requirements.txt       # Python dependencies
-├── .env.example          # Environment variables template
-└── README.md             # This file
-```
-
-## 🔮 Future Enhancements
-
-- [ ] Multi-database support (PostgreSQL, MySQL, etc.)
-- [ ] Query result caching for improved performance
-- [ ] Web interface for non-technical users
-- [ ] Advanced analytics and visualization generation
-- [ ] Query history and audit logging
-- [ ] Role-based access control
-- [ ] Streaming responses for large result sets
-
-## 📝 Example Interaction
-
-
 ## 👨‍💻 Author
 
 **Niranjan**
 
 - GitHub: [@Vniranjanr](https://github.com/Vniranjanr)
-- LinkedIn: [Connect with me](https://linkedin.com/in/yourprofile)
+- LinkedIn: www.linkedin.com/in/vniranjanr
 
