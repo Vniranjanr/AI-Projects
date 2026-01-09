@@ -21,7 +21,7 @@ This project demonstrates an advanced **agentic AI architecture** that enables n
 
 ## 🏗️ Architecture
 
-![Workflow Diagram](AI-Projects/images/workflow.png)
+![Workflow](../images/workflow.png)
 
 The system uses a sophisticated agent loop that:
 1. Analyzes user questions and database schema
@@ -29,6 +29,16 @@ The system uses a sophisticated agent loop that:
 3. Executes queries safely with error handling
 4. Processes results and formats human-readable responses
 5. Iterates until query goals are achieved
+
+## 🛠️ Technical Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **Python** | Core programming language |
+| **LangChain/Langchain** | Agent orchestration and workflow management |
+| **OpenAI** | Natural language understanding and SQL generation |
+| **pyodbc** | SQL Server database connectivity |
+| **dotenv** | Environment configuration management |
 
 ## ✨ Features
 
@@ -39,13 +49,15 @@ The system uses a sophisticated agent loop that:
 - **Error Recovery**: Automatically debugs and fixes SQL errors
 - **Result Synthesis**: Converts raw data into meaningful insights
 
-### Technical Features
-- Stateful workflow management with Langchain
-- Integration with Anthropic's Claude Sonnet 4
-- SQL Server connectivity via pyodbc
-- Environment-based configuration
-- Comprehensive error handling and logging
+## 🎯 Key Skills Demonstrated
 
+- **AI/ML Engineering**: Implementing production-grade agentic AI systems
+- **LangChain/Langchain**: Building stateful, multi-step AI workflows
+- **Database Engineering**: SQL Server integration and query optimization
+- **Python Development**: Clean, maintainable code with best practices
+- **System Design**: Architecting autonomous, error-resilient systems
+- **API Integration**: Working with modern LLM APIs 
+  
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -73,7 +85,7 @@ The system uses a sophisticated agent loop that:
 3. **Configure environment variables**
    ```bash
    # Create .env file
-   ANTHROPIC_API_KEY=your_api_key_here
+   OPENAI_API_KEY=your_openai_api_key_here
    ```
 
 4. **Update database configuration**
@@ -84,7 +96,7 @@ The system uses a sophisticated agent loop that:
 
 ```python
 # Run the agent
-python main.py
+stremlit run main.py
 
 # Example queries:
 # "How many employees are in the Sales department?"
@@ -102,15 +114,6 @@ This agentic system excels at:
 - **Data Exploration**: "What tables contain customer information?"
 - **Troubleshooting**: "Find all orders with missing shipment dates"
 
-## 🛠️ Technical Stack
-
-| Technology | Purpose |
-|------------|---------|
-| **Python** | Core programming language |
-| **LangChain/Langchain** | Agent orchestration and workflow management |
-| **Claude AI (Anthropic)** | Natural language understanding and SQL generation |
-| **pyodbc** | SQL Server database connectivity |
-| **dotenv** | Environment configuration management |
 
 ## 📁 Project Structure
 
@@ -125,15 +128,6 @@ SQLServer_AgenticAI/
 └── README.md             # This file
 ```
 
-## 🎯 Key Skills Demonstrated
-
-- **AI/ML Engineering**: Implementing production-grade agentic AI systems
-- **LangChain/Langchain**: Building stateful, multi-step AI workflows
-- **Database Engineering**: SQL Server integration and query optimization
-- **Python Development**: Clean, maintainable code with best practices
-- **System Design**: Architecting autonomous, error-resilient systems
-- **API Integration**: Working with modern LLM APIs (Anthropic Claude)
-
 ## 🔮 Future Enhancements
 
 - [ ] Multi-database support (PostgreSQL, MySQL, etc.)
@@ -146,28 +140,6 @@ SQLServer_AgenticAI/
 
 ## 📝 Example Interaction
 
-```
-User: "Show me employees hired in the last 6 months"
-
-Agent: [Analyzing schema...]
-       [Generating SQL query...]
-       [Executing: SELECT * FROM Employees WHERE HireDate >= DATEADD(month, -6, GETDATE())]
-       [Processing results...]
-
-Response: "I found 23 employees hired in the last 6 months. Here are the details:
-          - 12 in Engineering
-          - 7 in Sales
-          - 4 in Marketing
-          The most recent hire was Sarah Johnson in Engineering on [date]."
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit issues or pull requests.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👨‍💻 Author
 
@@ -176,12 +148,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - GitHub: [@Vniranjanr](https://github.com/Vniranjanr)
 - LinkedIn: [Connect with me](https://linkedin.com/in/yourprofile)
 
-## 🙏 Acknowledgments
-
-- Built with [LangChain](https://www.langchain.com/) and [Langchain](https://langchain-ai.github.io/Langchain/)
-- Powered by [Anthropic's Claude AI](https://www.anthropic.com/)
-- Inspired by the growing field of agentic AI systems
-
----
-
-⭐ **If you find this project useful, please consider giving it a star!** ⭐
